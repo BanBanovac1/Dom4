@@ -1,0 +1,99 @@
+.main1 {
+    padding-top: 105.85px;
+    padding-left: 20.06%;
+    padding-right: 15.06%;
+    height: 463.59px;
+
+    .main1-left {
+        float: left;
+        width: 45%;
+
+        .main1-left-img {
+            width: 39.27px;
+            height: 45.25px;
+            margin-bottom: 38.42px;
+        }
+
+        .main1-left-title {
+            margin-bottom: 41.83px; 
+
+            h2 {
+                font-family: 'Lato', sans-serif;
+                font-size: 22.2px;
+                color: #26272d;
+            }
+        }
+
+        .main1-left-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 15.38px;
+            color: #8c8f94;
+            width: 90%;
+            line-height: 150%;
+        }
+    }
+
+    .main1-right {
+        float: right;
+        width: 49%;
+
+        .main1-right-img {
+            width: 35.86px;
+            height: 42.69px;
+            margin-bottom: 38.42px;
+        }
+
+        .main1-right-title {
+            margin-bottom: 41.83px; 
+
+            h2 {
+                font-family: 'Lato', sans-serif;
+                font-size: 22.2px;
+                color: #26272d;
+            }
+        }
+
+        .main1-right-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 15.38px;
+            color: #8c8f94;
+            width: 97%;
+            line-height: 150%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        height: 500px;
+        padding-left: 8%;
+        padding-right: initial;
+        padding-top: 58.89px;
+
+        .main1-left, .main1-right {
+            float: none;
+            display: block;
+            width: 90%;
+        }
+
+        .main1-left {
+            margin-bottom: 58.89px;
+
+            .main1-left-img {
+                margin-bottom: 21.38px;
+            }
+
+            .main1-left-title {
+                margin-bottom: 23.27px;
+            }
+        }
+
+        .main1-right {
+            .main1-right-img {
+                margin-bottom: 21.38px;
+            }
+
+            .main1-right-title {
+                margin-bottom: 23.27px;
+            }
+        }
+    }
+}

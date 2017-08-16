@@ -1,0 +1,93 @@
+.main2 {
+    width: 100%;
+    height: $heightM2;
+    padding-left: 12.88%;
+    background-image: url(../images/world.png);
+    background-position: right 0 top 20px;
+    background-size: 102.13%;
+    background-repeat: no-repeat;
+
+    .main2-content {
+        width: 31.25%;
+
+        .main2-content-title {
+            margin-bottom: 58.06px;
+
+            h2 {
+                font-family: 'Varela Round', sans-serif;
+                font-size: 35.86px;
+                color: #26272d;
+                line-height: 150%;
+            }
+        }
+
+        .main2-content-text1, .main2-content-text2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 17.08px;
+            color: #8c8f94;
+            line-height: 150%;
+        }
+
+        .main2-content-text1 {
+            margin-bottom: 33.3px;
+        }
+
+        .main2-content-text2 {
+            margin-bottom: 59.76px;
+        }
+
+        .main2-content-logoText {
+            font-family: 'Lato', sans-serif;
+            font-size: 10.25px;
+            color: #26272d;
+            font-weight: bold;
+            margin-bottom: 26.47px;
+        }
+
+        .main2-content-logoAlign {
+            .main2-content-logoAlign-dropbox {
+                width: 106.72px;
+                height: 30.74px;
+                margin-right: 15.37px;
+            }
+
+            .main2-content-logoAlign-evernote {
+                width: 121.23px;
+                height: 29.88px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1367px) and (max-width: 1920px) {
+        height: $heightM2 / 1366px * 1920px;
+    }
+
+     @media screen and (max-width: 814px) {
+        .main2-content {
+            width: 35%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        padding-top: 58.89px;
+        padding-left: 8%;
+        background-size: 160%;
+        background-position: right 0 bottom 40px;
+
+        .main2-content {
+            width: 90%;
+
+            .main2-content-title {
+                margin-bottom: 32.3px;
+            }
+
+            .main2-content-text1 {
+                margin-bottom: 18.53px;
+            }
+
+            .main2-content-text2 {
+                margin-bottom: 33.24px;
+            }
+        }
+    }
+}

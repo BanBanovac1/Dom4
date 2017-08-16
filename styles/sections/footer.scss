@@ -1,0 +1,217 @@
+.footer {
+    width: 100%;
+    padding-left: 13.44%;
+
+    .footer-up {
+        width: 73.13%;
+        border-top: 1px solid #f4f4f4;
+        border-bottom: 1px solid #f4f4f4;
+        padding-top: 77.69px;
+        padding-bottom: 111px;
+
+        & > * {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .footer-up-left {
+            width: 29.93%;
+            margin-right: 23.56%;
+
+            .footer-up-logoText {
+                margin-bottom: 30.74px;
+            }
+
+            .footer-up-text {
+                font-family: 'Lato', sans-serif;
+                font-size: 11.95px;
+                color: #8c8f94;
+                line-height: 150%;
+                margin-bottom: 27.32px;
+            }
+
+            .footer-up-appStore {
+                cursor: pointer;
+                margin-bottom: 34.15px;
+            }
+
+            .footer-up-social {
+                .footer-up-social-icon:not(:last-child) {
+                    margin-right: 23.91px;
+                }
+            }
+        }
+
+        .footer-up-menuBox {
+            & > * {
+                display: inline-block;
+            }
+
+            .footer-up-menu:not(:last-child) {
+                margin-right: 55.49px;
+            }
+
+            .footer-up-menu {
+                .footer-up-menu-title {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 10.25px;
+                    color: #26272d;
+                    font-weight: bold;
+                    margin-bottom: 22.2px;
+                }
+
+                .footer-up-menu-item {
+                    cursor: pointer;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 13.66px;
+                    color: #8c8f94;
+                    margin-bottom: 22.2px;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-down {
+        width: 73.13%;
+        padding-top: 33.3px;
+        padding-bottom: 33.3px;
+
+        & > * {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .footer-down-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 11.95px;
+            color: #8c8f94;
+            margin-right: 53.85%;
+        }
+
+        .footer-down-logoAlign {
+            & > * {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .footer-down-logoAlign-text {
+                font-family: 'Lato', sans-serif;  
+                font-size: 7.68px;
+                color: #26272d;
+                font-weight: bold;
+                margin-right: 8.54px;    
+            }
+
+            .footer-down-logoAlign-logo {
+                width: 92.21px;
+                height: auto;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1314px) {
+            width: 83.13%;
+
+            .footer-down-text {
+                margin-right: 43%;
+            }
+
+            @media screen and (max-width: 963px) {
+                width: 93%;
+
+                .footer-down-text {
+                    margin-right: 25%;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1246px) {
+        .footer-up {
+            width: 88%;
+
+            .footer-up-left {
+                margin-right: 2.5%;
+                min-width: 240.53px;
+            }
+
+            .footer-up-menuBox {
+                .footer-up-menu:not(:last-child) {
+                    margin-right: 40.62px;
+                }
+            }
+        }
+        
+    }
+
+    @media screen and (max-width: 767px) {
+        padding-left: 8%;
+        padding-right: initial;
+
+        .footer-up {
+            width: initial;
+            padding-top: 43.22px;
+
+            & > * {
+                display: block;
+            }
+
+            .footer-up-left {
+                width: 85%;
+                margin: initial;
+                margin-bottom: 43.22px;
+
+                & > * {
+                    display: block;
+                }
+
+                .footer-up-social {
+                    .footer-up-social-icon:not(:last-child) {
+                        margin-right: 13.3px;             
+                    }
+                }
+            }
+
+            .footer-up-menuBox {
+                & > * {
+                    display: block;
+                }
+
+                .footer-up-menu {
+                    margin: initial; 
+
+                    &:not(:last-child) {
+                        margin-bottom: 45px;
+                    }
+                }
+            }
+        }
+
+        .footer-down {
+            width: initial;
+
+            & > * {
+                display: block;
+            }
+
+            .footer-down-text {
+                margin: initial;
+                margin-bottom: 20px;
+            }
+
+            .footer-down-logoAlign {
+                & > * {
+                    display: block;
+                }
+
+                .footer-down-logoAlign-text {
+                    margin: initial;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}
